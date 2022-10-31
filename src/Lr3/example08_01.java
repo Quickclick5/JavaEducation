@@ -9,7 +9,11 @@ public class example08_01 {
         System.out.println("Введите число в диапозоне от 1 до 7: ");
 
         int x = in.nextInt();
+<<<<<<< HEAD
         switch (x) {
+=======
+                switch (x) {
+>>>>>>> github/master
             case 1 -> System.out.print ("Числу 1 соотвествует понедельник \n");
             case 2 -> System.out.print ("Числу 2 соотвествует вторник \n");
             case 3 -> System.out.print ("Числу 3 соотвествует среда \n");
@@ -18,7 +22,13 @@ public class example08_01 {
             case 6 -> System.out.print ("Числу 6 соотвествует суббота \n");
             case 7 -> System.out.print ("Числу 7 соотвествует воскресение \n");
             default -> System.out.print ("Введено некорректное число (вне диапазона 1-7)");
+<<<<<<< HEAD
         }
     }
 }
 
+=======
+                }
+    }
+}
+>>>>>>> github/master
