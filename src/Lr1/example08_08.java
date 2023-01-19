@@ -18,7 +18,7 @@ public class example08_08{
         System.out.print("Input patronymic: ");
         String patronymic = in.nextLine();
 
-        System.out.printf(" %s  %s  %s \n", surname, name, patronymic);
+        System.out.printf(surname + "  " + name + "  " + patronymic);
         in.close();
     }
 }
